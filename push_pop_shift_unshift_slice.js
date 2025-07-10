@@ -1,0 +1,12 @@
+var fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape'];
+console.log('Original array:', fruits);
+fruits.push('honey');
+console.log('After push:', fruits);
+fruits.pop();
+console.log('After pop:', fruits);
+fruits.shift();
+console.log('After shift:', fruits);
+fruits.unshift('kiwi');
+console.log('After unshift:', fruits);
+fruits.splice(2, 5);
+console.log('After splice:', fruits);
